@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+body{
+    background-color: rgb(190, 190, 190);
+}
+.nav{
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0.688rem 18.75rem;
+    
+    color: #fff;
+    
+}
+.nav p{
+    font-size: 30px;
+}
+
+.container{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 14px; */
+    
+    
+    
+
+    
+}
+.container a{
+    text-decoration: none;
+    padding-top: 10px; 
+    
+}
+.container a:hover{
+   text-decoration: underline;
+}
+.container a:visited{
+    color: inherit;
+
+}
+.button{
+    height: 35px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(133, 133, 133);
+    color: rgb(51, 51, 51);
+    
+}
+.button:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.container-2{
+    height: 500px; 
+    width: 443px;  
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.box{
+    background-color: #818181;
+    height: 159px;
+    width: 443px;
+    display: flex;
+    padding: 21px 21px 10px;
+    flex-direction: column;
+    border-radius: 10px;
+    border: #444 2px solid;
+
+}
+.box input{
+    width: 401px;
+    height: 37px;
+    padding: 20px 10px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+    font-size: 16px;
+    
+    
+    
+    
+}
+.box input::placeholder{
+    color: #fff;
+    opacity: 50%;
+}
+.box button{
+    width: 74px;
+    height: 35px;
+    margin-top: 21px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    margin-left: auto;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+}
+.box button:hover{
+    border: #fff solid 1px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.container-3{
+    background-color: rgb(51, 51, 51);;
+    padding: 20px 35px;
+    border: #fff 2px solid;
+    border-radius: 10px;
+    margin-top: 26px;
+    color: #fff;
+    
+}
+.button2{
+    background:none;
+    border: none;
+}
+.button2:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
